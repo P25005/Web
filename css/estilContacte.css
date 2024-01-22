@@ -14,20 +14,25 @@ body {
     background: url('');
     display: flex;
     align-items: center;
-    justify-content: center;
     padding: 0 10%;
-    position: relative;
 }
 
 .home-content {
     max-width: 625px;
-    text-align: center;
 }
 
 .home-content h1 {
     font-size: 60px;
     font-weight: 700;
     margin-bottom: 0px;
+}
+
+.form-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100vh; /* Ajusta esto según tu diseño específico */
+    margin-right: 10%; /* Ajusta este valor para controlar la separación del formulario respecto al borde derecho */
 }
 
 .form-register {
@@ -38,9 +43,6 @@ body {
     font-family: 'calibri';
     color: white;
     box-shadow: 7px 13px 37px #000;
-    position: absolute;
-    top: 20px;
-    right: 20px; /* Ajusta según sea necesario */
 }
 
 .form-register h4 {
