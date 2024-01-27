@@ -25,3 +25,12 @@ h2{
     font-size: 25px;
     margin: 20px;
 }
+
+.css{
+    float: right;
+    margin-right: 20%;
+}
+
+.html{
+    float: left;
+}
