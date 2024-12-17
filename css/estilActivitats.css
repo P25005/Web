@@ -43,3 +43,16 @@ html, body {
     padding: 0;
     overflow: hidden;
 }
+
+.navbar a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 35px;
+}
+
+.navbar a:hover {
+    color: #00abf0;
+
+}
