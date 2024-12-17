@@ -96,14 +96,20 @@ body{
 
 .form-register .botons {
   width: 100%;
-  background:#00abf0;
+  background: #00abf0;
   border: none;
   padding: 12px;
   color: white;
   margin: 16px 0;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
+  transition: background-color 0.3s ease;
 }
+
+.form-register .botons:hover {
+  background-color: #081b29;
+}
+
 
 .home{
     
