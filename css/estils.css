@@ -99,6 +99,12 @@ a{
     
 }
 
+.home-content .btn-box:hover {
+    background-color: #00abf0;
+    color: #081b29; 
+    border: 2px solid #00abf0;
+}
+
 .social{
     position: absolute;
     bottom: 40px;
@@ -123,7 +129,19 @@ a{
 
 }
 
+.social a:hover {
+    background-color: #00abf0;
+    color: #081b29;
+}
+
 .social p{
     color: #00abf0;
     font-size: 16px;
+}
+
+html, body {
+    height: 100%;   /* Asegura que la altura sea del 100% */
+    margin: 0;      /* Elimina el margen por defecto */
+    padding: 0;     /* Elimina el padding por defecto */
+    overflow: hidden; /* Evita cualquier tipo de barra de desplazamiento */
 }

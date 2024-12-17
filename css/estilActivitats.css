@@ -36,3 +36,10 @@ h2{
     float: left;
     margin-left: 5%;
 }
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
