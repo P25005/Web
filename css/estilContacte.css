@@ -7,6 +7,41 @@
     box-sizing: border-box;
 }
 
+.navbar a {
+  font-size: 18px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight: 500;
+  margin-left: 35px;
+}
+
+.navbar a:hover {
+  color: #00abf0;
+
+}
+
+.header{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 80%;
+  padding: 20px 10%;
+  background: transparent;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.logo{
+  font-size: 25px;
+  color: #ededed;
+  text-decoration: none;
+  font-weight:600;
+}
+
+
+
 body{
     background: #081b29;
     color: #ededed;

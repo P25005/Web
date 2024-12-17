@@ -7,21 +7,32 @@
     <link rel="stylesheet" href="css/estilContacte.css">
 </head>
 <body>
-    
-    <section class="home">
-        <div class="home-content">
-            <h1>Contacte</h1>
-        </div>
+    <header class="header">
+        <a href="index.html" class="logo">Pau Mateo</a>
 
-    </section>
+        <nav class="navbar">
+
+            <a href="index.html">Home</a>
+            <!--<a href="activitats/activitats.html">Activitats</a>-->
+            <a href="Informacio.html">About</a> 
+            <a href="wireframes.html">Projects</a>
+            <a href="contacte.html">Contact</a>
+            <!--<a href="wireframes.html">Wireframes</a>-->
+        </nav>
+    </header>
+
+    
+    
 
     <section class="form-register">
-        <h4>Formulari de contacte</h4>
-        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Nom">
-        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Cognoms">
-        <input class="controls" type="email" name="correo" id="correo" placeholder="Email de contacte">
-        <input class="controls" type="text" name="correo" id="correo" placeholder="Consulta:">
+        <form action="https://formspree.io/f/xovqolzl" method="POST">
+        <h4>Contact form</h4>
+        <input class="controls" type="text" name="nombres" id="nombres" placeholder="Name">
+        <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Company Name">
+        <input class="controls" type="email" name="correo" id="correo" placeholder="Email Address">
+        <input class="controls" type="text" name="correo" id="correo" placeholder="Message">
         <input class="botons" type="submit" value="Enviar">
+    </form>
     </section>
     
 </body>
